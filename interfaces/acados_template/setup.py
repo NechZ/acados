@@ -46,7 +46,7 @@ setup(name='acados_template',
     license='BSD 2-Clause',
     packages = find_packages(),
     include_package_data = True,
-    setup_requires=['setuptools_scm'],
+    setup_requires=['setuptools_scm==7.1.0'],
     use_scm_version={
       "fallback_version": "0.1-local",
       "root": "../..",
